@@ -1,5 +1,5 @@
 {
-    "name": "hepm/php-helpers",
+    "name": "okfish/php-helpers",
     "description": "php helpers library",
     "type": "library",
     "license": "MIT",
