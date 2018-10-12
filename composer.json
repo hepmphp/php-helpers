@@ -1,0 +1,19 @@
+{
+    "name": "hepm/php-helpers",
+    "description": "php helpers library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ok_fish",
+            "email": "306863208@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "okfish\\lib\\":"src/"
+        }
+    }
+}
