@@ -70,7 +70,7 @@ class Curl {
             CURLOPT_ENCODING=>'gzip,deflate',
             CURLOPT_HTTPHEADER => $header_options,
         );
-        if (strpos($url,"https")!=false) {
+        if (strpos($url,"https")!==false) {
             $curl_options[CURLOPT_SSL_VERIFYPEER] = false; // 对认证证书来源的检查
         }
         curl_setopt_array($ch, $curl_options);
